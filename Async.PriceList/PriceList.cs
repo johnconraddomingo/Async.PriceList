@@ -18,18 +18,38 @@ namespace Async.PriceList
             InitializeComponent();
         }
 
-        private void button_Login_Click(object sender, EventArgs e)
+        private async void button_Login_Click(object sender, EventArgs e)
         {
+            var delayInMs = 5000;
             var authService = new AuthenticationService();
-            var authenticationResult =   authService.Authenticate(textBox_Username.Text, textBox_Password.Text);
+            var authTask = authService.AuthenticateAsync(textBox_Username.Text, textBox_Password.Text, delayInMs);
 
-            authenticationResult.Wait();
+            Log($"Authenticating. This takes {delayInMs / 1000} seconds...");
+            var authenticationResult = await authTask;
 
-            if (!authenticationResult.Result)
+            if (authenticationResult)
             {
-                MessageBox.Show(@"Access Denied");
+                MessageBox.Show(@"Login Success.");
             }
+            else
+            {
+                MessageBox.Show(@"Access Denied.");
+            }
+        }
 
+
+        private void PriceList_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        // 
+        // Extra
+        //
+
+        private void Log(string message)
+        {
+            listBox_PriceList.Items.Add($"{DateTime.Now:HH:mm:ss} - {message}");
 
         }
     }

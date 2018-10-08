@@ -1,0 +1,45 @@
+﻿Motherboard	:	 $1.00 
+Central Processing Unit (CPU)	:	 $2.00 
+Random Access Memory (RAM)	:	 $3.00 
+Power Supply	:	 $4.00 
+Video Card	:	 $5.00 
+Hard Drive (HDD)	:	 $6.00 
+Solid-State Drive (SSD)	:	 $7.00 
+Optical Drive	:	 $8.00 
+Card Reader	:	 $9.00 
+Monitor	:	 $10.00 
+Keyboard	:	 $11.00 
+Mouse	:	 $12.00 
+Battery Backup (UPS)	:	 $13.00 
+Flash Drive	:	 $14.00 
+Printer	:	 $15.00 
+Speakers	:	 $16.00 
+External Hard Drive	:	 $17.00 
+Pen Tablet	:	 $18.00 
+Sound Card	:	 $19.00 
+Network Interface Card (NIC)	:	 $20.00 
+Expansion Card	:	 $21.00 
+Hard Drive Controller Card	:	 $22.00 
+Analog Modem	:	 $23.00 
+Scanner	:	 $24.00 
+Projector	:	 $25.00 
+Floppy Disk Drive	:	 $26.00 
+Joystick	:	 $27.00 
+Webcam	:	 $28.00 
+Microphone	:	 $29.00 
+Tape Drive	:	 $30.00 
+Zip Drive	:	 $31.00 
+Digital Modem	:	 $32.00 
+Router	:	 $33.00 
+Network Switch	:	 $34.00 
+Access Point	:	 $35.00 
+Repeater	:	 $36.00 
+Bridge	:	 $37.00 
+Print Server	:	 $38.00 
+Firewall	:	 $39.00 
+Fan	:	 $40.00 
+Heat Sink	:	 $41.00 
+Data Cable	:	 $42.00 
+Power Cable	:	 $43.00 
+CMOS Battery	:	 $44.00 
+Daughterboard	:	 $45.00 
