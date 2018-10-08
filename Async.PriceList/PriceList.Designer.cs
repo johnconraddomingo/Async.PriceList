@@ -149,7 +149,6 @@
             this.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.Name = "PriceList";
             this.Text = "Pricelist";
-            this.Load += new System.EventHandler(this.PriceList_Load);
             this.splitContainer_PriceList.Panel1.ResumeLayout(false);
             this.splitContainer_PriceList.Panel2.ResumeLayout(false);
             this.splitContainer_PriceList.Panel2.PerformLayout();
